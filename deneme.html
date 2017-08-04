@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<meta charset ='utf-8'>
+		<script type="text/javascript">
+			function mesajGonder()
+			{
+				alert("Bu bir uyarı mesajıdır.");
+			}
+			function topla(x,y)
+			{
+				return x+y;
+			}
+			function carp(a,b)
+			{
+				return a*b;
+			}
+		</script>
+	</head>
+	
+	<body>
+		<script type="text/javascript">
+			document.write("Bu bir deneme sayfasıdır."+ "<br/>"); 
+			var degisken1="Aykut";
+			var degisken2="Durucan";
+			var yil=1994;
+			document.write(degisken1+" "+degisken2+" "+yil+"<br/>");
+			var sonuc = carp(4,topla(3,5));
+			document.write("Sonuc: "+ sonuc);
+		</script>
+		<form>
+			<input type="button" name="buton1" value="Mesaj Gönder" onclick="mesajGonder()">
+		</form>
+	</body>
+	
+</html>
