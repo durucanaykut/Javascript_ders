@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<script language = "JavaScript">
+			function siziTaniyalim(){
+				var BrowserAdi = "";
+				BrowserAdi += "Browser: " +navigator.appName + "r";
+				BrowserAdi += "Sürümü: " + navigator.appVersion + "r";
+				BrowserAdi += "Kod Adı: " + navigator.appCodeName + "r";
+				BrowserAdi += "userAgent: " + navigator.userAgent + "r";
+				alert(BrowserAdi);
+			}
+		</script>
+	</head>
+	<body>
+		<h1> Browser’ınızı Tanıyor Musunuz?</h1>
+		<form>
+			<input type="button" value="Browser Hakkında Bilgi Ver" onclick="siziTaniyalim()">
+		</form>
+	</body>
+</html>
